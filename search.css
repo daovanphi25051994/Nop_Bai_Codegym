@@ -1,0 +1,25 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-search {
+
+    background: antiquewhite;
+}
+
+.title {
+    text-align: center;
+}
+
+.input-search {
+    width: 400px;
+    margin-left: 195px;
+}
+
+.input-submit {
+    margin: 5px;
+    padding: 5px;
+    margin-left: 540px;
+
+}
