@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM</title>
+    <link type="text/css" rel="stylesheet" href="simple-form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h2>Order Form</h2>
+            <p>What would you like to buy ?</p>
+            <select name="select-form">
+                <option value="Com ga" selected>Cơm gà</option>
+                <option value="Com bo">Cơm bò</option>
+                <option value="Com suon">Cơm sườn</option>
+                <option value="Com rang">Cơm rang</option>
+                <option value="Pho">Phở bò</option>
+            </select>
+            <p>How many would you like to order?</p>
+            <label><input type="radio" name="prince" value="1-10"> 1 - $10<br></label>
+            <label><input type="radio" name="prince" value="2-20"> 2 - $20<br></label>
+            <label><input type="radio" name="prince" value="3-25"> 3 - $25<br></label>
+            <p>Name <span style="color: red">*</span></p>
+            <input type="text" name="firstname" placeholder="FirstName">
+            <input type="text" name="lastname" placeholder="LastName">
+            <p>Email</p>
+            <input type="text" name="email" class="email-input">
+            <p>Phone Number</p>
+            <input type="text" name="phoneNumber" class="phone-number">-<input type="text" name="phoneNumber" class="phone-number">
+            -<input type="text" name="phoneNumber" class="phone-number"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

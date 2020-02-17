@@ -1,0 +1,16 @@
+.container {
+    font-family: Tahoma, sans-serif;
+    width: 30%;
+    margin: 0 auto;
+
+    box-shadow: 5px 5px 10px 5px aqua, -5px -5px 10px 5px aqua;
+}
+
+.phone-number {
+    width: 50px;
+}
+
+.email-input {
+    width: 300px;
+
+}
